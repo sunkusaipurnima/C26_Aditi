@@ -7,6 +7,7 @@ class Ground {
       this.width = width;
       this.height = height;
       World.add(world, this.body);
+      // Adding comments
     }
     display(){
       var pos =this.body.position;
